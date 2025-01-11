@@ -137,7 +137,7 @@ def greedy_action(Q, s, nb_actions, epsilon=0):
         Qsa.append(Q.predict(sa))
     return np.argmax(Qsa)
 
-
+'''
 if __name__ == "__main__":
     print('Starting set-up')
     print('Filling up the memory')
@@ -155,4 +155,4 @@ if __name__ == "__main__":
     # # iter, # estimators, max_depth
     filename = 'q_function_continued_250_150_075.sav'
     dump(q_function, filename, compress=9)
-
+'''
