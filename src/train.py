@@ -1,17 +1,11 @@
-import math
 import random
 from collections import namedtuple, deque
-from itertools import count
-import copy
-import pickle
 from joblib import dump, load
 
 import numpy as np
 from gymnasium.wrappers import TimeLimit
 from sklearn.ensemble import ExtraTreesRegressor
-from sklearn.exceptions import NotFittedError
 from tqdm import tqdm
-import matplotlib.pyplot as plt
 
 from env_hiv import HIVPatient
 
